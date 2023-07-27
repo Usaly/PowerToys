@@ -40,6 +40,8 @@ namespace Hosts
 
         public App()
         {
+            Windows.ApplicationModel.Resources.Core.ResourceContext.SetGlobalQualifierValue("Language", "de-DE");
+
             InitializeComponent();
 
             Host = Microsoft.Extensions.Hosting.Host.
